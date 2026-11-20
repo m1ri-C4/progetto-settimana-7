@@ -1,0 +1,4 @@
+header.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: #193366 !important;
+}
