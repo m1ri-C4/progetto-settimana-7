@@ -25,21 +25,22 @@
                             placeholder="Es. Arsenal, Lakers, Real Madrid..." aria-label="Cerca">
                         <button class="btn btn-light text-primary-emphasis fw-bold" type="submit"> Cerca </button>
                     </form>
+                </div>
+            </div>
+        </div>
     </header>
 
     <main class="container">
         <section class="my-4">
             <h2>⭐ Le tue squadre preferite</h2>
-            <p class="text-muted"> <i>Non hai ancora salvato nessuna squadra. Cercane una qui sopra e aggiungila ai
-                    preferiti.</i> </p>
-            <ul id="favourite"></ul>
+            <p id="emptyFavourites" class="text-muted"> <i>Non hai ancora salvato nessuna squadra. Cercane una qui sopra e aggiungila ai preferiti.</i> </p>
+            <div id="favourite" class="row g-3 mt-3"></div>
         </section>
 
         <section class="my-4">
             <h2>Squadre trovate</h2>
-            <p class="text-muted"> <i>Inizia cercando una squadra sopra.</i> </p>
-            <ul id="teams"></ul>
-            <ul id="events"></ul>
+            <p id="emptyTeams" class="text-muted"> <i>Inizia cercando una squadra sopra.</i> </p>
+            <div id="teams" class="row g-3 mt-3"></div>
         </section>
 
     </main>
