@@ -1,14 +1,41 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
 header.bg-primary {
     --bs-bg-opacity: 1;
     background-color: #193366 !important;
 }
 
+/*RENDERS*/
 .team-logo {
     width: 80px;
     height: 80px;
     object-fit: contain;
 }
 
+.team-title {
+    color: #183153;
+}
+
+.event-heading {
+    border-bottom: 2px solid #183153;
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+}
+
+.event-item {
+    border-bottom: 1px solid #e9ecef;
+}
+
+/*HOVER CARD*/
 .card {
     transition: transform 150ms ease;
 

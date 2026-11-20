@@ -33,14 +33,20 @@
     <main class="container">
         <section class="my-4">
             <h2>⭐ Le tue squadre preferite</h2>
-            <p id="emptyFavourites" class="text-muted"> <i>Non hai ancora salvato nessuna squadra. Cercane una qui sopra e aggiungila ai preferiti.</i> </p>
+            <p id="emptyFavourites" class="text-muted"> <i>Non hai ancora salvato nessuna squadra. Cercane una qui sopra
+                    e aggiungila ai preferiti.</i> </p>
             <div id="favourite" class="row g-3 mt-3"></div>
         </section>
 
         <section class="my-4">
             <h2>Squadre trovate</h2>
             <p id="emptyTeams" class="text-muted"> <i>Inizia cercando una squadra sopra.</i> </p>
+
+            <div id="loading" class="alert alert-info d-none" role="status">Caricamento... </div>
+            <div id="errorMessage" class="alert alert-danger d-none" role="alert"></div>
+
             <div id="teams" class="row g-3 mt-3"></div>
+            <div id="events" class="row g-4 mt-3"></div>
         </section>
 
     </main>
